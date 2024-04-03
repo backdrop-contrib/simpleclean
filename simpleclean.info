@@ -1,0 +1,35 @@
+type = theme
+name = Simple Clean
+description = Super simple, narrow theme: fixed width at 960px.
+backdrop = 1.x
+screenshot = images/screenshot.png
+
+base theme = d7compatible
+
+; STYLESHEETS
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/wotc.css
+
+; SCRIPTS
+scripts[] = js/jquery.lettering-0.6.min.js
+scripts[] = js/wotc.js
+
+; FEATURES
+features[] = search
+features[] = main_menu
+features[] = secondary_menu
+features[] = comment_user_picture
+features[] = node_user_picture
+
+; SETTINGS
+settings[simpleclean_mission] = ''
+
+; REGIONS - @todo support core layouts
+;regions[content] = Content
+;regions[header] = Header
+;regions[highlighted] = Highlighted
+;regions[sidebar_first] = Right sidebar
+;regions[footer] = Footer
+;regions[help] = Help
+;regions[page_top] = Page top
+;regions[page_bottom] = Page bottom
